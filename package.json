@@ -37,5 +37,11 @@
     "type": "git",
     "url": "git+https://github.com/JovanCraft/krash-site.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
+
+
+
