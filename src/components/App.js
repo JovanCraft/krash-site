@@ -24,11 +24,12 @@ export default function App(props) {
   return (
     <div className='App'>
       <nav>
-        <h1 className='store-header'>Emily&apos;s Trinkets</h1>
+        <h1 className='store-header'>KRASH Apparel & Printing</h1>
         <div className='nav-links'>
           {/* 👉 STEP 3 - Make Links to navigate us Home (`/`) and Shop (`items-list`) */}
           <Link to='/'>Home</Link>
           <Link to='items-list'>Shop</Link>
+          <Link to='/'>Cart</Link>
         </div>
       </nav>
 
